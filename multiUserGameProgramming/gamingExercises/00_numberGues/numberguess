@@ -57,7 +57,25 @@ namespace Numberguess
             }else{
                 // code to run if no diff is chosen
             }
-            console.writeline()
+            console.writeline("Minimum: " + minrange);
+            console.writeline("Maximum: " + maxrange);
+            Console.writeline("NUm,guess: " + attempts);
+
+            //start the match
+            while (Plyscore != 3 && PCscore != 3 ) {
+            // any code that i want to run before each round goes here.
+
+            // start each round
+            for (int i = 0; i< NumberGuess ; i++) {
+             // code to guess the number goes here.
+              Console.writelin(" Enter your guess here ." );
+              Console.readline();  
+              if (Console.readline == 7 _)
+            }
+
+
+
+            }
 
 
 
