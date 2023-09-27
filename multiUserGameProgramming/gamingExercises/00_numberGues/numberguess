@@ -1,0 +1,69 @@
+// Noah Thompson,Number guess
+/*
+Generate secrete number from a defined range of numbers (i.e. 0-10, 0-50, 0-100)
+Print game instructions including range and number of guesues allowed.
+    Match == first player to score 3 points.
+    Round == guessing a specific number, until correct or no more attempts.
+ask the polayer what thier guess is
+Determune if guess is correct or not 
+    if guess is correct{
+        Console.writline "your guess was right , heres a point.
+    } else{
+        Console.write line "your wrong ,guess again " check remainig guesses {
+            if you have guesses : {
+                alrigth guess again.
+
+            } else{
+                Console.writeline "CPU wins this round."
+            }
+        }
+    }
+
+*/
+using system;
+
+namespace Numberguess
+{   
+    class NumberGuess
+    { 
+      static void main(string[] args)
+      {
+            int secreteNUmber = -7;
+            int numG = 0; // Number of guesses player is allowed
+            int attempts = 0; // number of guess taken
+            int Plyscore = 0;
+            int PCscore = 0;
+            string diff = "";
+            int minrange = 0;
+            int maxrange = 0;
+
+            Console.writeline(" Welcome to numGuess.\n Choose difficulty. \n");
+            Console.writeline("easy game: Range 1-10 with 4 guesses.\n Casual Game: Range -10-10 with 7 guesses.\n Hard game: range -7-21")
+
+            // difficulty selection
+            console.writeline(" please enter easy, casual or hard game .")
+            difficulty =  Console.readLine();
+            // console.readline() will auto save strings by default
+            Console.writeline(" you have chosen" + difficulty);
+            if (difficulty == " easy") {
+                minrange = 1
+                maxrange = 10
+            } else if ("casual"){
+                minrange = -10
+                maxrange = 10  
+            } else if ("hard"){
+                minrange = -7
+                maxrange = 21
+            }else{
+                // code to run if no diff is chosen
+            }
+            console.writeline()
+
+
+
+
+      }
+
+    }   
+
+}
