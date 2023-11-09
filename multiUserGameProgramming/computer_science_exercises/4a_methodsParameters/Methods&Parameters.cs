@@ -9,7 +9,7 @@ NameSpace MethosdsParameters
         // Example signature
         static void MyMethod();
         {
-            Console.WriteLine("I like mine with lettuce and tomatoes, Heinz 57, and frence fried potatoes.\n");
+            Console.WriteLine("I like mine with lettuce and tomatoes, tomatosause , and frence fried potatoes.\n");
         }
         // static - This method belongs to the current class, it is NOT an object
         // void -- This method has no return value.
@@ -20,7 +20,7 @@ NameSpace MethosdsParameters
             Console.WriteLine("This method will double a number and return it.\n");
             Console.WriteLine("Please enter a number on the nect line.\n");
             sum = System.Convert.ToInt32(Console.ReadLine());
-            sum *= 2;
+            sum *= 3;
             Console.WriteLine(sum);
             return sum; 
         }
