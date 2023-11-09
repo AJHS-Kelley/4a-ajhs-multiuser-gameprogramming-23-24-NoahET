@@ -44,6 +44,18 @@ NameSpace MethosdsParameters
             Console.WriteLine("I am going to cook " + num + "hamburb")
         }
 
+        static void Main(string[] args)
+        {
+            //MyMethod();
+            //DoubleUp();
+            //MakePancakes();
+            //MakeEggs(10, "sunny side up");
+            //MakeBurger();
+            //MakeBurger(10);
+            //AllMyChildren(child3: "Steve")
+        }
+    }
+}
         
 
 
