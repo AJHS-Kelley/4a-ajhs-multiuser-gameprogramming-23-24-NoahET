@@ -1,9 +1,9 @@
 Thompson Noah , program Template, v0.2
 
 NameSpace MethosdsParameters
-
+{
     class MethosdsParameters
-    
+    {
         // METHOD -- named blck of code, can be used over and over.
         // ALL methods have a SIGNATURE that defines their name, parameters, and output.
         // Example signature
@@ -49,13 +49,21 @@ NameSpace MethosdsParameters
             //MyMethod();
             //DoubleUp();
             //MakePancakes();
-            //MakeEggs(10, "sunny side up");
+            //MakeEggs(10, " scrammble");
             //MakeBurger();
             //MakeBurger(10);
-            //AllMyChildren(child3: "Steve")
+           //AllMyChildren(child3: "joshua", child2: "lisa", child1: "Burford");
+            FindSum(1,5);
+            FindSum(9.5,2.4);
+            FindSum(5,2.5);
+
+           
         }
     }
 }
+
+    
+
         
 
 
