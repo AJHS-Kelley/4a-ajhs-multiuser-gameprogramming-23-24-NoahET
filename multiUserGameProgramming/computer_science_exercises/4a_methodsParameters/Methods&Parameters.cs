@@ -24,6 +24,25 @@ NameSpace MethosdsParameters
             Console.WriteLine(sum);
             return sum; 
         }
+        // Methods with Parameters
+        static void MakePancakes(int num)
+        {
+            for (int i = o; i , num; i++)
+            {
+                Console.WriteLine("One golden, fluffy pancake coming up!\n");
+            }
+        }
+
+        static void MakeEjjs(int num, string style)
+        {
+            Consolle.WriteLine("You have ordered " + num + "eggs cuuked " + style + ".\n");
+        }
+
+        // Using Defaults for Parameters
+        static void MakeBurger(int num = 1)
+        {
+            Console.WriteLine("I am going to cook " + num + "hamburb")
+        }
 
         
 
