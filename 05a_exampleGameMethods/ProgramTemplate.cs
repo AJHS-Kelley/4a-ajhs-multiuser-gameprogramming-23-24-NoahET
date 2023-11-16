@@ -1,11 +1,15 @@
 // Noah Thompson, Rubric, v0.1
-using system;
+using System;
 
-namespace Grey Escape
+namespace GreyEscape
 {   
     class program
     {
-       static void Main(string[] args); 
+       static void Main(string[] args)
+       {
+           MethodFour();
+           
+       }
 
        static void MethodOne()
        {
@@ -17,23 +21,28 @@ namespace Grey Escape
         
        }
 
-        static void MethodThree()
+        static void WrongRight()
        {
         
        }
 
-        static void MethodFour()
+        static void GuessCounter()
        {
+            //every choice made decreases the players guess count
+            GuessChoices == DiceRoll()
+            if ReadLine( ) GuessChoices == -1  
         
+        
+            
        }
 
-        static int DiceRoll()
-       { // random number gen 1 to 6
-         int DiceRoll = rnd.Next(1,6); //  1-3 = low vaue  4-5 = high value 
-
-        return DiceRoll
-        
-        Console.WriteLine(" You rolled a  dice number,you move number on dice after roll")
+        static void DiceRoll()
+       { 
+           // random number gen 1 to 6
+            Random rnd = new Random(); 
+            int Guesscount = rnd.Next(1,7); //  1-3 = low vaue  4-5 = high value
+            Console.WriteLine(" You rolled a " + Guesscount +" ,you have " + Guesscount +" guess Counts" );
+            
        }
         
     
