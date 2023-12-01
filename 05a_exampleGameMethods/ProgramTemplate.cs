@@ -1,4 +1,4 @@
-// Noah Thompson, Rubric, v0.1
+// Noah Thompson, Rubric, v0.4grey escape
 using System;
 
 namespace GreyEscape
@@ -12,7 +12,7 @@ namespace GreyEscape
        }
 
        static void MethodOne()
-       {
+       { path 1 = 
         
        }
 
@@ -22,18 +22,20 @@ namespace GreyEscape
        }
 
         static void WrongRight()
-       {
-        
-       }
+       { int =choices = 1,2,3,
+        // if wrong chouice then print "Wrong, try again"/ if right Print"your rigth , the next step to escaping was made"
+        if (choices == 1) { console.writeline("your wrong, you lose a guess be more carefull. try again");
+        }
+        if (choices == 2) { console.writeline("your rigth , the next step to escaping was made");
+        }
+        if (choices == 3) { console.writeline(" Meh, its not totally wrong or rigth. move on ");
+        }
+        if else console.WriteLine("just choose one of them or stop playing");
 
         static void GuessCounter()
        {
             //every choice made decreases the players guess count
-            GuessChoices == DiceRoll()
-            if ReadLine( ) GuessChoices == -1  
-        
-        
-            
+            GuessChoices = -- if(choices == 1,2,3);       
        }
 
         static void DiceRoll()
