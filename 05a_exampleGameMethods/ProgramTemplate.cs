@@ -40,7 +40,7 @@ namespace GreyEscape
        { 
            // random number gen 1 to 6
             Random rnd = new Random(); 
-            int Guesscount = rnd.Next(1,7); //  1-3 = low vaue  4-5 = high value
+            int Guesscount = rnd.Next(1,7); //  1-3 = low vaue  4-5 = high value = false
             Console.WriteLine(" You rolled a " + Guesscount +" ,you have " + Guesscount +" guess Counts" );
             
        }
